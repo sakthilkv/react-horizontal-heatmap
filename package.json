@@ -1,0 +1,47 @@
+{
+	"name": "react-horizontal-heatmap",
+	"version": "1.0.0",
+	"description": "A lightweight React component for rendering a horizontal heatmap. Perfect for timelines, activity charts, or health status indicators. Fully customizable colors, box size, and spacing.",
+	"main": "dist/index.cjs",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sakthilkv/react-horizontal-heatmap.git"
+	},
+	"keywords": [
+		"react",
+		"heatmap",
+		"horizontal-heatmap",
+		"data-visualization",
+		"charts",
+		"timeline",
+		"activity-graph",
+		"contribution-graph",
+		"server-health",
+		"react-component",
+		"lightweight",
+		"visualization"
+	],
+	"author": "Sakthi LK",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sakthilkv/react-horizontal-heatmap/issues"
+	},
+	"homepage": "https://github.com/sakthilkv/react-horizontal-heatmap#readme",
+	"peerDependencies": {
+		"react": ">=17.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^19.1.12",
+		"tsup": "^8.5.0",
+		"typescript": "^5.9.2"
+	}
+}
