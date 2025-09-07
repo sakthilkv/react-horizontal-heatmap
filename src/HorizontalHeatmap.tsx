@@ -32,7 +32,7 @@ export const HorizontalHeatmap: React.FC<HeatmapProps> = ({
 					title={`Value: ${value}`}
 					style={{
 						width: boxSize,
-						height: boxSize,
+						height: (boxSize * 16) / 9,
 						backgroundColor: getColor(value),
 						marginRight: gap,
 						borderRadius: 3,
