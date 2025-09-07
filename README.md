@@ -4,11 +4,12 @@ A lightweight React component for rendering a **horizontal heatmap**.
 Perfect for timelines, activity charts, contribution-style graphs, or health status indicators.
 Fully customizable colors, box size, and spacing.
 
-![Heatmap Demo](./docs/screenshots/heatmap_demo.png)
 
 [![npm version](https://img.shields.io/npm/v/react-horizontal-heatmap.svg)](https://www.npmjs.com/package/react-horizontal-heatmap)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/sakthilkv/react-horizontal-heatmap.svg)](https://github.com/sakthilkv/react-horizontal-heatmap/issues)
+
+![Heatmap Demo](./docs/screenshots/heatmap_demo.png)
 
 ---
 
