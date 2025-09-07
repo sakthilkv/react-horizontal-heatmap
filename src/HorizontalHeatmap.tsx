@@ -22,9 +22,9 @@ export type HeatmapProps = {
 };
 
 const defaultColors = [
-	'#24C19A', // greenish
-	'#FBBF24', // yellowish
-	'#F87171', // reddish
+	'rgb(36, 193, 154)', // greenish
+	'rgb(251, 191, 36)', // yellowish
+	'rgb(248, 113, 113)', // reddish
 ];
 
 export const HorizontalHeatmap: React.FC<HeatmapProps> = ({
