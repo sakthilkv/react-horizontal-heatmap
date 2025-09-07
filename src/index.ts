@@ -1,2 +1,2 @@
 export { HorizontalHeatmap } from './HorizontalHeatmap';
-export type { HeatmapProps } from './HorizontalHeatmap';
+export type { HeatmapData, HeatmapProps, PopoverItem } from './HorizontalHeatmap';
