@@ -4,12 +4,11 @@ A lightweight React component for rendering a **horizontal heatmap**.
 Perfect for timelines, activity charts, contribution-style graphs, or health status indicators.
 Fully customizable colors, box size, and spacing.
 
-
 [![npm version](https://img.shields.io/npm/v/react-horizontal-heatmap.svg)](https://www.npmjs.com/package/react-horizontal-heatmap)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/sakthilkv/react-horizontal-heatmap.svg)](https://github.com/sakthilkv/react-horizontal-heatmap/issues)
 
-![Heatmap Demo](./docs/screenshots/heatmap_demo.png)
+![Heatmap Demo](./docs/screenshots/demo.gif)
 
 ---
 
@@ -31,16 +30,34 @@ pnpm add react-horizontal-heatmap
 import React from 'react';
 import { HorizontalHeatmap } from 'react-horizontal-heatmap';
 
-export default function App() {
-	const values = [1, 5, 3, 9, 7, 2, 10, 6, 4, 8];
+export const App = () => {
+	const data = [
+		{
+			value: 2,
+			time: '2025-09-07 10:00',
+			items: [
+				{ icon: <FaUser />, text: 'New User', link: '#' },
+				{ icon: <FaBug />, text: 'Error Reported', link: '#' },
+			],
+		},
+		{
+			value: 0,
+			time: '2025-09-07 11:00',
+			items: [],
+		},
+		{
+			value: 1,
+			time: '2025-09-07 12:00',
+			items: [{ icon: <FaLink />, text: 'Server Linked', link: '#' }],
+		},
+	];
 
 	return (
-		<div style={{ padding: 20 }}>
-			<h2>Server Health</h2>
-			<HorizontalHeatmap data={values} />
+		<div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+			<HorizontalHeatmap data={data} boxSize={30} gap={6} />
 		</div>
 	);
-}
+};
 ```
 
 ---
