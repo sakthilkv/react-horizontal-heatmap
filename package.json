@@ -1,6 +1,6 @@
 {
 	"name": "react-horizontal-heatmap",
-	"version": "1.0.3",
+	"version": "1.1.1",
 	"description": "A lightweight React component for rendering a horizontal heatmap. Perfect for timelines, activity charts, or health status indicators. Fully customizable colors, box size, and spacing.",
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
@@ -45,6 +45,8 @@
 		"typescript": "^5.9.2"
 	},
 	"dependencies": {
+		"lucide": "^0.542.0",
+		"react-icons": "^5.5.0",
 		"react-tiny-popover": "^8.1.6"
 	}
 }
